@@ -17,10 +17,10 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background: hsl(0, 0%, 8%);
 }
 
 main {
-    border: 1px solid;
     width: fit-content;
     height: fit-content;
     padding: 20px;
@@ -28,6 +28,8 @@ main {
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+    background-color: hsl(0, 0%, 12%);
+
 }
 
 main section img {
@@ -41,11 +43,14 @@ main section img {
 
 main section.user-details p {
     text-align: center;
+    color: hsl(75, 94%, 57%);
+    font-weight: bold;
 }
 
 h2 {
     font-size: clamp(25px, 2.6vw, 30px);
     margin-bottom: 8px;
+    color: white;
 }
 
 p {
@@ -58,13 +63,30 @@ section.socials-links {
 
 section.socials-links p.bio {
     margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.425);
+    
 }
 
 section.socials-links ul li {
-    border: 1px solid;
-    padding: 8px;
     text-align: center;
     font-weight: bold;
     margin-bottom: 15px;
     border-radius: 10px;
+    background-color:  hsl(0, 0%, 20%);
+}
+
+ul li a {
+    color: white;
+    font-size: clamp(14px, 1.5vw, 20px);
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul li a:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: black;
 }
