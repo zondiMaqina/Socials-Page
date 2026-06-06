@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -16,4 +17,10 @@ main {
     border: 1px solid;
     width: fit-content;
     height: fit-content;
+}
+
+main section img {
+    max-inline-size: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
 }
