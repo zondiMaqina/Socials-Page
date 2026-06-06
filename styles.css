@@ -4,3 +4,16 @@
     box-sizing: border-box;
     list-style: none;
 }
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border: 1px solid;
+    width: fit-content;
+    height: fit-content;
+}
